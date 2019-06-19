@@ -1,0 +1,35 @@
+body{
+  font-family: 'Marcellus', serif;
+}
+
+.bg-purpure{
+  background-color: #663399;
+};
+
+.name-one{
+  font-weight: 600;
+font-size: 3em;
+}
+
+header{
+  background-image: url("../img/bg-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10rem;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: black;
+  }
+
+
+.texto{
+  color: #663399;
+  border-color: #fff;
+  font-weight: 500;
+  font-size: 3.5em;
+}
