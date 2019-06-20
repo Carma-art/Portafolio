@@ -1,6 +1,6 @@
 /* prueba */
 body{
-  font-family: 'Marcellus', serif;
+font-family: 'Lato', sans-serif;
 }
 
 .bg-purpure{
@@ -13,11 +13,14 @@ font-size: 3em;
 }
 
 header{
-  background-image: url("../img/bg-3.png");
+  background-image: url("../img/bg-4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-bottom: 10rem;
+}
+
+.pr-10{
+  margin-top: 15rem;
 }
 
 .carousel-indicators li {
@@ -28,9 +31,9 @@ header{
   }
 
 
+
 .texto{
   color: #663399;
-  border-color: #fff;
   font-weight: 500;
   font-size: 3.5em;
 }
