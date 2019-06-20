@@ -1,6 +1,6 @@
-$(function (){
+$(function() {
 
-  $("a").click(function(event){
+  $("a").click(function(event) {
     if (this.hash !== "") {
       event.preventDefault();
 
@@ -8,16 +8,16 @@ $(function (){
 
       $("html, body").animate({
         scrollTop: $(gato).offset().top
-      }, 800, function(){
+      }, 800, function() {
         window.location.hash = gato;
       });
     }
   });
 
-$('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="tooltip"]').tooltip()
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-});
+  $('#myModal').on('shown.bs.modal', function() {
+    $('#myInput').trigger('focus')
+  });
 
 });

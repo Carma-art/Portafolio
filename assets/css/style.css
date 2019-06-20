@@ -1,25 +1,25 @@
 /* prueba */
-body{
-font-family: 'Lato', sans-serif;
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-.bg-purpure{
+.bg-purpure {
   background-color: #663399;
-};
-
-.name-one{
-  font-weight: 600;
-font-size: 3em;
 }
 
-header{
+.name-one {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+header {
   background-image: url("../img/bg-4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.pr-10{
+.pr-10 {
   margin-top: 15rem;
 }
 
@@ -28,11 +28,9 @@ header{
   height: 10px;
   border-radius: 50%;
   color: black;
-  }
+}
 
-
-
-.texto{
+.texto {
   color: #663399;
   font-weight: 500;
   font-size: 3.5em;
